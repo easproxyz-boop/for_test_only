@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: '.',        // project root
-  base: '/for_test_only',       // important if deploying to subfolder or static hosting
+  base: '/for_test_only/',   // pangalan ng GitHub repo mo
   build: {
-    outDir: 'dist', // default output folder
+    outDir: 'dist',
     emptyOutDir: true
   }
 })
